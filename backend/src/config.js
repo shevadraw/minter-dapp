@@ -9,7 +9,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "Bizarre Piranhas";
 const description = "These strange and dangerous fish can be found more and more often in various places. This collection represents a flock of 3000 unique piranhas";
-const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
+const baseUri = "ipfs://QmVDwmd6YS2wFBwrT63LVPPiXERHwemk78532Q6hgJKm3R"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
@@ -42,7 +42,7 @@ const format = {
 };
 
 const extraMetadata = {
-  external_url: "https://bizarre-piranhas.fun", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://bizarrepiranhas.fun", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
