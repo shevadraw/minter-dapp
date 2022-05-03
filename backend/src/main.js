@@ -128,7 +128,7 @@ const drawBackground = () => {
 const addMetadata = (_dna, _edition) => {
   let dateTime = Date.now();
   let tempMetadata = {
-    name: `${namePrefix} #${_edition}`,
+    name: `${namePrefix} #${_edition + 1}`,
     description: description,
     image: `${baseUri}/${_edition}.png`,
     attributes: attributesList,
