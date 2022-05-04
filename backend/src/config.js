@@ -55,7 +55,7 @@ const CHAIN = 'rinkeby'; // only rinkeby or polygon
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'Bizarre Piranhas';
 const CONTRACT_SYMBOL = 'BP';
-const METADATA_UPDATABLE = false; // set to false if you don't want to allow metadata updates after minting
+const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x806EC0337dc2bc5115469Ef851EF43F3cc508d7e';
 const TREASURY_ADDRESS = '0x806EC0337dc2bc5115469Ef851EF43F3cc508d7e';
 const MAX_SUPPLY = 3000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
