@@ -9,12 +9,12 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "Bizarre Piranhas";
 const description = "These strange and dangerous fish can be found more and more often in various places. This collection represents a flock of 3000 unique piranhas";
-const baseUri = "ipfs://QmVDwmd6YS2wFBwrT63LVPPiXERHwemk78532Q6hgJKm3R"; // This will be replaced automatically
+const baseUri = "ipfs://QmPvgmrVfdUF2pGmRPy4YHgywiGxnXuei7hQYPM9LCN9FT"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 10,
+    growEditionSizeTo: 15,
     layersOrder: [
       { name: "backgrounds" },
       { name: "environment" },
@@ -55,7 +55,7 @@ const CHAIN = 'rinkeby'; // only rinkeby or polygon
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'Bizarre Piranhas';
 const CONTRACT_SYMBOL = 'BP';
-const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
+const METADATA_UPDATABLE = false; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x806EC0337dc2bc5115469Ef851EF43F3cc508d7e';
 const TREASURY_ADDRESS = '0x806EC0337dc2bc5115469Ef851EF43F3cc508d7e';
 const MAX_SUPPLY = 3000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
@@ -67,7 +67,7 @@ const PUBLIC_MINT_START_DATE = "2022-05-11T11:30:48+00:00"; // This is required.
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = "2022-05-03T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
-const ROYALTY_SHARE = 800; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
+const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0x806EC0337dc2bc5115469Ef851EF43F3cc508d7e"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
