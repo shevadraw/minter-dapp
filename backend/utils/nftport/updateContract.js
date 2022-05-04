@@ -166,6 +166,7 @@
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
+          "Authorization": "fade0073-83eb-40db-b6c9-13651484a527"
         },
         body: JSON.stringify(contract),
       };
